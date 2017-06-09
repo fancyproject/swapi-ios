@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  TableView
-//
-//  Created by Jakub on 05/06/2017.
-//  Copyright © 2017 Jakub. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

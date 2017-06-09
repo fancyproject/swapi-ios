@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B0492DC1EE9454B00F37E2F /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0492DB1EE9454B00F37E2F /* PersonViewController.swift */; };
+		3B6EF43A1EEA78EE00BFDEE8 /* SWApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EF4391EEA78EE00BFDEE8 /* SWApi.swift */; };
 		3BE9D5151EE540A70065842E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE9D5141EE540A70065842E /* AppDelegate.swift */; };
 		3BE9D5171EE540A80065842E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE9D5161EE540A80065842E /* ViewController.swift */; };
 		3BE9D51A1EE540A80065842E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE9D5181EE540A80065842E /* Main.storyboard */; };
@@ -26,14 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BE9D5111EE540A70065842E /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0492DB1EE9454B00F37E2F /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		3B6EF4391EEA78EE00BFDEE8 /* SWApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApi.swift; sourceTree = "<group>"; };
+		3BE9D5111EE540A70065842E /* SWApi-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWApi-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE9D5141EE540A70065842E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BE9D5161EE540A80065842E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BE9D5191EE540A80065842E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BE9D51B1EE540A80065842E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BE9D51E1EE540A80065842E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BE9D5201EE540A80065842E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BE9D5251EE540A80065842E /* TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE9D5251EE540A80065842E /* SWApi-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWApi-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE9D5291EE540A80065842E /* TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTests.swift; sourceTree = "<group>"; };
 		3BE9D52B1EE540A80065842E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +72,8 @@
 		3BE9D5121EE540A70065842E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BE9D5111EE540A70065842E /* TableView.app */,
-				3BE9D5251EE540A80065842E /* TableViewTests.xctest */,
+				3BE9D5111EE540A70065842E /* SWApi-ios.app */,
+				3BE9D5251EE540A80065842E /* SWApi-iosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +81,11 @@
 		3BE9D5131EE540A70065842E /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				3B6EF4391EEA78EE00BFDEE8 /* SWApi.swift */,
 				3BE9D5141EE540A70065842E /* AppDelegate.swift */,
 				3BE9D5161EE540A80065842E /* ViewController.swift */,
 				3BE9D5181EE540A80065842E /* Main.storyboard */,
+				3B0492DB1EE9454B00F37E2F /* PersonViewController.swift */,
 				3BE9D51B1EE540A80065842E /* Assets.xcassets */,
 				3BE9D51D1EE540A80065842E /* LaunchScreen.storyboard */,
 				3BE9D5201EE540A80065842E /* Info.plist */,
@@ -99,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BE9D5101EE540A70065842E /* TableView */ = {
+		3BE9D5101EE540A70065842E /* SWApi-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BE9D52E1EE540A80065842E /* Build configuration list for PBXNativeTarget "TableView" */;
+			buildConfigurationList = 3BE9D52E1EE540A80065842E /* Build configuration list for PBXNativeTarget "SWApi-ios" */;
 			buildPhases = (
 				3BE9D50D1EE540A70065842E /* Sources */,
 				3BE9D50E1EE540A70065842E /* Frameworks */,
@@ -111,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = TableView;
+			name = "SWApi-ios";
 			productName = TableView;
-			productReference = 3BE9D5111EE540A70065842E /* TableView.app */;
+			productReference = 3BE9D5111EE540A70065842E /* SWApi-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3BE9D5241EE540A80065842E /* TableViewTests */ = {
+		3BE9D5241EE540A80065842E /* SWApi-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BE9D5311EE540A80065842E /* Build configuration list for PBXNativeTarget "TableViewTests" */;
+			buildConfigurationList = 3BE9D5311EE540A80065842E /* Build configuration list for PBXNativeTarget "SWApi-iosTests" */;
 			buildPhases = (
 				3BE9D5211EE540A80065842E /* Sources */,
 				3BE9D5221EE540A80065842E /* Frameworks */,
@@ -129,9 +135,9 @@
 			dependencies = (
 				3BE9D5271EE540A80065842E /* PBXTargetDependency */,
 			);
-			name = TableViewTests;
+			name = "SWApi-iosTests";
 			productName = TableViewTests;
-			productReference = 3BE9D5251EE540A80065842E /* TableViewTests.xctest */;
+			productReference = 3BE9D5251EE540A80065842E /* SWApi-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BE9D50C1EE540A70065842E /* Build configuration list for PBXProject "TableView" */;
+			buildConfigurationList = 3BE9D50C1EE540A70065842E /* Build configuration list for PBXProject "SWApi-ios" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -168,8 +174,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BE9D5101EE540A70065842E /* TableView */,
-				3BE9D5241EE540A80065842E /* TableViewTests */,
+				3BE9D5101EE540A70065842E /* SWApi-ios */,
+				3BE9D5241EE540A80065842E /* SWApi-iosTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE9D5171EE540A80065842E /* ViewController.swift in Sources */,
+				3B0492DC1EE9454B00F37E2F /* PersonViewController.swift in Sources */,
+				3B6EF43A1EEA78EE00BFDEE8 /* SWApi.swift in Sources */,
 				3BE9D5151EE540A70065842E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +225,7 @@
 /* Begin PBXTargetDependency section */
 		3BE9D5271EE540A80065842E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BE9D5101EE540A70065842E /* TableView */;
+			target = 3BE9D5101EE540A70065842E /* SWApi-ios */;
 			targetProxy = 3BE9D5261EE540A80065842E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -371,7 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TableViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView.app/TableView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWApi-ios.app/SWApi-ios";
 			};
 			name = Debug;
 		};
@@ -385,14 +393,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TableViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView.app/TableView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWApi-ios.app/SWApi-ios";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BE9D50C1EE540A70065842E /* Build configuration list for PBXProject "TableView" */ = {
+		3BE9D50C1EE540A70065842E /* Build configuration list for PBXProject "SWApi-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BE9D52C1EE540A80065842E /* Debug */,
@@ -401,21 +409,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BE9D52E1EE540A80065842E /* Build configuration list for PBXNativeTarget "TableView" */ = {
+		3BE9D52E1EE540A80065842E /* Build configuration list for PBXNativeTarget "SWApi-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BE9D52F1EE540A80065842E /* Debug */,
 				3BE9D5301EE540A80065842E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3BE9D5311EE540A80065842E /* Build configuration list for PBXNativeTarget "TableViewTests" */ = {
+		3BE9D5311EE540A80065842E /* Build configuration list for PBXNativeTarget "SWApi-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BE9D5321EE540A80065842E /* Debug */,
 				3BE9D5331EE540A80065842E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
